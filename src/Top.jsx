@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Top() {
   return (
-    <section className="relative w-full bg-black text-white pb-10 overflow-hidden">
+    <section className="relative w-[100vw] bg-zinc-900 text-white pb-10 overflow-hidden m-0 left-0">
       
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="/hero-bg.jpg"
+          src="https://raw.githubusercontent.com/Smartypie112/coach-site-front/refs/heads/main/src/assets/strong-guy-with-crossed-arms.jpg"
           alt="Fitness background"
           className="w-full h-full object-cover opacity-40"
         />
@@ -36,15 +36,23 @@ export default function Top() {
             <li className="hover:text-white cursor-pointer">Contact</li>
           </ul>
 
-          <button className="bg-lime-500 text-black px-5 py-2 rounded-full font-medium hover:bg-lime-400 transition">
+          <button className="bg-lime-500 text-black px-5 py-2 rounded font-medium hover:bg-lime-400 transition">
             Apply Now
           </button>
         </nav>
 
         {/* Hero */}
-        <div className="w-full text-left mt-24 px-6 md:px-12">
-          <span className="inline-block mb-6 px-4 py-1 rounded-full bg-lime-500/20 text-lime-400 text-sm">
-            Forbes Featured Coach
+        <div className="flex justify-center items-center">
+        <div className=" flex-col w-full text-left mt-24 px-6 md:px-12">
+          <span className="whitespace-nowrap inline-flex items-center mb-6 px-4 py-1 rounded-full bg-lime-500/20 text-lime-400 text-sm">
+           <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 24 24"
+  fill="currentColor"
+  class="w-4 h-4 text-lime-500"
+>
+  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+</svg> &nbsp;Forbes Featured Coach
           </span>
 
           <h1 className="text-5xl md:text-6xl font-bold leading-tight max-w-4xl">
@@ -84,7 +92,7 @@ export default function Top() {
             </div>
           </div>
         </div>
-
+     </div>
       </div>
     </section>
   );
