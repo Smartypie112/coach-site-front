@@ -9,7 +9,7 @@ export default function Top() {
         <img
           src="https://raw.githubusercontent.com/Smartypie112/coach-site-front/refs/heads/main/src/assets/strong-guy-with-crossed-arms.jpg"
           alt="Fitness background"
-          className="w-full h-full object-cover opacity-40"
+          className="hidden md:block w-full h-full object-cover opacity-40"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent" />
       </div>

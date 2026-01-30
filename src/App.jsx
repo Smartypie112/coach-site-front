@@ -3,6 +3,7 @@ import './App.css'
 import Top from './Top'
 import FourBox from './FourBox'
 import Results from './Results'
+import Offers from './Offers'
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
       <Top/>
       <FourBox/>
       <Results/>
+      <Offers/>
     </div>
   )
 }

@@ -56,7 +56,7 @@ export default function FourBox() {
   },
 ];
   return (
-    <section className=" pt-6 pb-6  bg-zinc-900 h-68 w-[100vw] flex items-center flex-col bg-gradient-to-b from-zinc-950 to-zinc-900">
+    <section className=" pt-6 pb-6  bg-zinc-900 h-68 w-[100vw] flex items-center flex-col bg-zinc-900">
       {/*Heading*/}
       <div>
         <h2 className="font-serif text-3xl">Trusted Authority in Health & Wellness</h2>
