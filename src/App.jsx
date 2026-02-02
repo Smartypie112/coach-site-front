@@ -4,6 +4,10 @@ import Top from './Top'
 import FourBox from './FourBox'
 import Results from './Results'
 import Offers from './Offers'
+import About from './About'
+import Links from './Links'
+import CTA from './CTA'
+import Footer from './Footer'
 
 function App() {
   
@@ -13,6 +17,10 @@ function App() {
       <FourBox/>
       <Results/>
       <Offers/>
+      <About/>
+      <Links/>
+      <CTA/>
+      <Footer/>
     </div>
   )
 }
