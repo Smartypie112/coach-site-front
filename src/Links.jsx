@@ -23,7 +23,7 @@ export default function Links() {
         >
           {/* ICON SLOT */}
           <div className="w-14 h-14 rounded-lg bg-zinc-800 flex items-center justify-center">
-            {/* YOUR SVG HERE */}
+            <img src="https://raw.githubusercontent.com/Smartypie112/coach-site-front/refs/heads/main/src/assets/images%20-%202026-02-02T130635.625.jpeg"/>
           </div>
 
           <div className="flex-1">
@@ -46,7 +46,7 @@ export default function Links() {
         >
           {/* ICON SLOT */}
           <div className="w-14 h-14 rounded-lg bg-zinc-800 flex items-center justify-center">
-            {/* YOUR SVG HERE */}
+            <img src="https://raw.githubusercontent.com/Smartypie112/coach-site-front/refs/heads/main/src/assets/images%20(1).png"/>
           </div>
 
           <div className="flex-1">

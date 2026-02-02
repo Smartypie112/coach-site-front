@@ -49,13 +49,13 @@ export default function Footer() {
             <div className="flex gap-3 justify-center">
               {/* ICON SLOT */}
               <div className="w-10 h-10 rounded-md bg-zinc-900 flex items-center justify-center hover:bg-zinc-800 transition">
-                {/* SVG */}
+            <img src="https://raw.githubusercontent.com/Smartypie112/coach-site-front/refs/heads/main/src/assets/images%20(2).png"/>
               </div>
               <div className="w-10 h-10 rounded-md bg-zinc-900 flex items-center justify-center hover:bg-zinc-800 transition">
-                {/* SVG */}
+            <img src="https://raw.githubusercontent.com/Smartypie112/coach-site-front/refs/heads/main/src/assets/images%20-%202026-02-02T130635.625.jpeg"/>
               </div>
               <div className="w-10 h-10 rounded-md bg-zinc-900 flex items-center justify-center hover:bg-zinc-800 transition">
-                {/* SVG */}
+            <img src="https://raw.githubusercontent.com/Smartypie112/coach-site-front/refs/heads/main/src/assets/images%20(1).png"/>
               </div>
             </div>
           </div>
